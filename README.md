@@ -61,6 +61,9 @@
 - [CVE-2022-20866：思科自适应安全设备软件和 Firepower 威胁防御软件 RSA 私钥泄漏检查](https://github.com/CiscoPSIRT/CVE-2022-20866)
 - [WLAN-AP-WEA453e RCE:三星路由器远程命令执行漏洞](./WLAN-AP-WEA453e%20RCE三星路由器远程命令执行漏洞.md)
 - [Buffer overflow in Xiongmai DVRs](https://blog.ret2.me/post/2022-01-26-exploiting-xiongmai-dvrs/)|[备份](https://web.archive.org/web/20221129205148/https://blog.ret2.me/post/2022-01-26-exploiting-xiongmai-dvrs/)
+- [CVE-2023-27350: PaperCut NG身份验证绕过导致的RCE](https://github.com/horizon3ai/CVE-2023-27350)
+- [ivms-8700-0day-poc: 海康威视iVMS-8700综合安防管理平台任意文件上传漏洞](https://github.com/spmonkey/ivms-8700-0day-poc)
+- [badspin: Android Kernel内存错误引用漏洞](https://github.com/0xkol/badspin)
 
 ## <span id="head4">Web APP</span>
 
@@ -300,6 +303,12 @@
 - [CVE-2022-39952：FortiNAC keyUpload zipslip 远程代码执行漏洞](https://github.com/horizon3ai/CVE-2022-39952)
 - [CVE-2022-21587：Oracle E-Business Suite 未授权RCE](https://github.com/hieuminhnv/CVE-2022-21587-POC)|[Oracle E-BS CVE-2022-21587 Exploit Plugin for woodpecker-framwork](https://github.com/Zh1z3ven/Oracle-E-BS-CVE-2022-21587-Exploit)
 - [Alibab-Nacos-Unauthorized-Login: Alibab Nacos <= 2.2.0 未授权访问「默认key生成jwt token」](https://github.com/Al1ex/Alibab-Nacos-Unauthorized-Login)|[Nacos-Authentication-Bypass-Poc ](https://github.com/atk7r/Nacos-Authentication-Bypass-Poc)|[nacos_vul: Nacos身份验证绕过批量检测（QVD-2023-6271）+ 直接添加用户](https://github.com/Pizz33/nacos_vul)
+- [CVE-2023-27524: Apache Superset中不安全的默认配置](https://github.com/horizon3ai/CVE-2023-27524)
+- [CVE-2023-1671: Sophos Web Appliance 远程命令执行漏洞](https://github.com/W01fh4cker/CVE-2023-1671-POC)
+- [CVE-2023-28771-PoC: Zyxel firewalls 命令注入漏洞](https://github.com/BenHays142/CVE-2023-28771-PoC)
+- [CVE-2023-25690-POC: Apache HTTP Server 请求走私漏洞](https://github.com/dhmosfunk/CVE-2023-25690-POC)
+- [realor-sql-Injection-exp: 瑞友天翼应用虚拟化-远程代码执行/sql注入](https://github.com/hkxueqi/realor-sql-Injection-exp)
+- [Apache-Solr-8.3.1-RCE: Apache Solr 8.3.1 admin panel RCE (Windows)](https://github.com/scrt/Apache-Solr-8.3.1-RCE)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -369,6 +378,8 @@
 - [【Windows 提权】PetitPotato：通过PetitPotam进行本地提权](https://github.com/wh0Nsq/PetitPotato)
 - [LocalPotato：一个使用新potato技术来进行windows本地提权](https://github.com/decoder-it/LocalPotato)
 - [EfsPotato：Exploit for EfsPotato(MS-EFSR EfsRpcOpenFileRaw with SeImpersonatePrivilege local privalege escalation vulnerability)](https://github.com/zcgonvh/EfsPotato)
+- [【Linux 提权】CVE-2023-32233: Linux Kernel 权限提升漏洞](https://github.com/Liuk3r/CVE-2023-32233)
+- [【Linux 提权】CVE-2023-0386: Linux OverlayFS权限提升漏洞](https://github.com/veritas501/CVE-2023-0386)
 
 ## <span id="head6"> PC</span>
 
@@ -573,6 +584,10 @@
 - [CVE-2023-0179: 影响了从5.5到6.2-rc3的所有Linux版本](https://github.com/H4K6/CVE-2023-0179-PoC)|[源处](https://github.com/TurtleARM/CVE-2023-0179-PoC)
 
 - [Hades-C2: python开发的C2工具](https://github.com/Lavender-exe/Hades-C2)
+
+- [CVE-2023-27363: Foxit PDF Reader及Editor任意代码执行漏洞](https://github.com/j00sean/SecBugs/tree/main/CVEs/CVE-2023-27363)
+
+- [keepass-password-dumper: CVE-2023-32784 KeePass 信息泄露漏洞](https://github.com/vdohney/keepass-password-dumper)
 
 
 ## <span id="head7"> tools-小工具集版本合</span>
@@ -1495,7 +1510,7 @@
 - [addMemShellsJSP：通过jsp注入valve内存马，可以忽略框架影响，通用tomcat789](https://github.com/Ghost2097221/addMemShellsJSP)
 - [GarBageTools-public：支持致远、蓝凌、万户、帆软报表、fastjson、el表达式shell等功能的漏洞利用工具](https://github.com/Ghost2097221/GarBageTools-public)
 - [NoNetCmdEcho-FileW.e：应对渗透中极限环境下命令回显 & 文件落地](https://github.com/Dr-S1x17/NoNetCmdEcho-FileW.e)
-- [DnslogCmdEcho：命令执行不回显但DNS协议出网的命令回显场景解决方案](https://github.com/sv3nbeast/DnslogCmdEcho)
+- [DnslogCmdEcho：命令执行不回显但DNS协议出网的命令回显场景解决方案](https://github.com/sv3nbeast/DnslogCmdEcho)|[HexDnsEchoT: DnslogCmdEcho修改版](https://github.com/A0WaQ4/HexDnsEchoT)
 - [Goal：Goal Go Red-Team 工具类](https://github.com/code-scan/Goal)
 - [Frp：魔改版 FRP 更加适合红对作战使用](https://github.com/DongHuangT1/Frp)
 - [Shellcode-Loader：动态加载 shellcode](https://github.com/ReversingID/Shellcode-Loader)
@@ -1767,6 +1782,26 @@
 - [go-public: 基于 Go 的端口转发工具](https://github.com/songquanpeng/go-public)
 - [ByPassUACTools: Windows 平台下的UAC(User Account Contro) 绕过工具](https://github.com/Adminisme/ByPassUACTools)
 - [JsonExp: fastjson漏洞批量检测工具](https://github.com/smallfox233/JsonExp)
+- [Mimikatz: 用c#实现了个远程拉取Mimikatz.ps1](https://github.com/Avienma/Mimikatz)
+- [RedisEXP: Redis 漏洞利用工具](https://github.com/yuyan-sec/RedisEXP)
+- [JundeadShell: Java内存马注入工具](https://github.com/0x00007c00/JundeadShell)
+- [WeaverScan: 泛微oa漏洞利用工具](https://github.com/TD0U/WeaverScan)
+- [frpCracker: 一款golang编写的，批量检测frp server未授权访问、弱token的工具](https://github.com/SleepingBag945/frpCracker)
+- [exec2shell: 将PE、ELF或Mach-O可执行文件的TEXT部分提取为shellcode](https://github.com/Binject/exec2shell)
+- [unauthorized_com: 未授权检测的命令行版，支持批量检测](https://github.com/xk11z/unauthorized_com)
+- [HiddenDesktop: 隐藏桌面，适用于Cobalt Strike使用VNC的时候隐藏桌面操作](https://github.com/WKL-Sec/HiddenDesktop)
+- [ProxyPoolxSocks: Socks代理池服务端自动化搭建工具](https://github.com/Anyyy111/ProxyPoolxSocks)
+- [npsmodify: ps的魔改，进行了流量特征的魔改，并且进行了漏洞的修复](https://github.com/Q16G/npsmodify)
+- [BOFRunPortable: BOF内存运行exe](https://github.com/9bie/BOFRunPortable)
+- [SSH-Harvester: 从OpenSSH服务器上自动获取密码](https://github.com/jm33-m0/SSH-Harvester)
+- [ChYing: 一款安全工具箱,集成了目录扫描、JWT、Swagger 测试、编/解码、轻量级 BurpSuite、杀软辅助功能](https://github.com/yhy0/ChYing)
+- [taiE: 一键getshell集成化工具](https://github.com/1f3lse/taiE)
+- [gsocket: 穿透防火墙或NAT进行通信](https://github.com/hackerschoice/gsocket)
+- [KeymouseGo: 类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入](https://github.com/taojy123/KeymouseGo)
+- [ghauri: 类似sqlmap的sql注入自动化利用工具](https://github.com/r0oth3x49/ghauri)
+- [weiquan: cs维权插件](https://github.com/kasjhkjaSD/weiquan)
+- [cloudSec: 云平台AK/SK-WEB利用工具](https://github.com/libaibaia/cloudSec)
+- [udpx: UDPX是一个用Go语言编写的单包UDP扫描器，速度快，重量轻，支持发现超过45个服务，并能添加自定义服务](https://github.com/nullt3r/udpx)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
