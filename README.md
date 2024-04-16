@@ -317,6 +317,11 @@
 - [CVE-2023-20178: Cisco AnyConnect Secure Mobility Client for Windows 系统权限提升漏洞](https://github.com/Wh04m1001/CVE-2023-20178)
 - [CVE-2023-34960: Chamilon命令执行](https://github.com/Aituglo/CVE-2023-34960)
 - [CVE-2023-23333：Contec SolarView Compact命令执行](https://github.com/Mr-xn/CVE-2023-23333)
+- [CVE-2023-7028：GitLab 任意用户密码重置漏洞](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2023/CVE-2023-7028.yaml)
+- [CVE-2023-22527：Atlassian Confluence - Remote Code Execution](https://blog.projectdiscovery.io/atlassian-confluence-ssti-remote-code-execution/)|[nuclei-temoplateCVE-2023-22527：Atlassian Confluence - Remote Code Execution](https://github.com/projectdiscovery/nuclei-templates/blob/aba6b4ed2d5ba6a7bba776e10e45e792a8349c3c/http/cves/2023/CVE-2023-22527.yaml)
+- [CVE-2024-23897：Jenkins CLI 任意文件读取漏洞可至RCE](https://github.com/projectdiscovery/nuclei-templates/blob/main/javascript/cves/2024/CVE-2024-23897.yaml)
+- [CVE-2024-21887：ivanti policy secure-22.6命令注入漏洞](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-21887.yaml)
+- [CVE-2024-0204：Goanywhere MFT 未授权创建管理员漏洞](https://github.com/projectdiscovery/nuclei-templates/blob/main/http/cves/2024/CVE-2024-0204.yaml)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -1844,6 +1849,7 @@
 - [Havoc: Havoc是一款现代化的、可扩展的后渗透命令控制框架C2](https://github.com/HavocFramework/Havoc)
 - [go-file: 基于 Go 的文件分享工具，仅单可执行文件，开箱即用](https://github.com/songquanpeng/go-file)
 - [ehr_SafeCodeEncode_tamper:宏景ehr sql注入的tamper脚本](https://github.com/jdr2021/ehr_SafeCodeEncode_tamper)
+- [Struts2VulsScanTools：Struts2全版本漏洞检测工具 19.21](https://github.com/abc123info/Struts2VulsScanTools)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -1913,6 +1919,7 @@
 - [空指针-Base_on_windows_Writeup--最新版DZ3.4实战渗透](./books/空指针-Base_on_windows_Writeup--最新版DZ3.4实战渗透.pdf)
 - [入门KKCMS代码审计](./books/入门KKCMS代码审计.pdf)
 - [SpringBoot 相关漏洞学习资料，利用方法和技巧合集，黑盒安全评估 checklist](https://github.com/LandGrey/SpringBootVulExploit)
+- [从零学习到 Webshell 免杀手册](https://github.com/AabyssZG/WebShell-Bypass-Guide)
 - [文件上传突破waf总结](./books/文件上传突破waf总结.pdf)
 - [极致CMS（以下简称_JIZHICMS）的一次审计-SQL注入+储存行XSS+逻辑漏洞](./books/极致CMS（以下简称_JIZHICMS）的一次审计-SQL注入+储存行XSS+逻辑漏洞.pdf)|[原文地址](https://xz.aliyun.com/t/7872)
 - [代码审计之DTCMS_V5.0后台漏洞两枚](./books/代码审计之DTCMS_V5.0后台漏洞两枚.pdf)
@@ -2294,6 +2301,10 @@
 - [wechat: 微信收藏的文章【渗透、技巧相关文章】](https://github.com/izj007/wechat)
 - [sec-books-part1: 网安类绝版图书](https://github.com/apachecn/sec-books-part1)
 - [dotnet-deserialization: dotnet 反序列化学习笔记](https://github.com/Y4er/dotnet-deserialization)
+- [服务隐藏与排查 | Windows 应急响应](https://mp.weixin.qq.com/s/OrTTpxt_i1y5PUxfQRcWDQ)|[备份](./doc/blue/服务隐藏与排查 _ Windows 应急响应.html)
+- [Windows快捷方式利用技巧](https://mp.weixin.qq.com/s/ZPL84wN8MitFzrkegZCLdg)|[备份][./books/Windows快捷方式利用技巧.html]
+- [Linux提权过程中的各种姿势](https://mp.weixin.qq.com/s/K13LvvYsU8mi32pgsq4WeQ)|[备份](./books/Linux提权过程中的各种姿势.html)
+- [mssql攻防探究](https://forum.butian.net/share/2705)|[备份](./books/奇安信攻防社区-mssql攻防探究.html)
 
 ## <span id="head9"> 说明</span>
 
